@@ -1,0 +1,98 @@
+[
+    {
+      "id": 1,
+      "slug": "former-mp-sells-ice-cream",
+      "category": "Haryana",
+      "headline": "Former MP of Pakistan now sells ice cream in Haryana: Fled after minority persecution in Bhutto’s era; says he will be first to pick up arms if war breaks out",
+      "thumbnail": {
+        "type": "video",
+        "url": "/path/to/video-thumbnail.jpg",
+        "duration": "0:35"
+      },
+      "detail": {
+        "image": "/path/to/detail-image.jpg",
+        "heading": "Former Pakistani MP Turns Ice Cream Vendor in Haryana",
+        "leadingParagraph": "A former Member of Parliament from Pakistan, who fled the country during the Bhutto era due to minority persecution, has now settled in Haryana and is earning a living by selling ice cream. He shared his journey and his readiness to defend his new home if tensions escalate.",
+        "paragraphs": [
+          "The former MP, who wishes to remain anonymous, spoke about the challenges he faced after leaving Pakistan. 'I had to start from scratch, but I found peace here,' he said.",
+          "Despite his humble occupation, he remains vigilant about the geopolitical situation. 'If war breaks out, I will be the first to pick up arms to protect this land,' he added."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "slug": "tech-breakthrough-ai",
+      "category": "Tech & Science",
+      "headline": "AI Breakthrough: New Model Can Predict Weather Patterns with 99% Accuracy",
+      "thumbnail": {
+        "type": "image",
+        "url": "/path/to/tech-image.jpg"
+      },
+      "detail": {
+        "image": "/path/to/tech-detail-image.jpg",
+        "heading": "AI Model Achieves 99% Accuracy in Weather Prediction",
+        "leadingParagraph": "A groundbreaking AI model developed by researchers can now predict weather patterns with an unprecedented 99% accuracy, potentially revolutionizing how we prepare for natural disasters.",
+        "paragraphs": [
+          "The model uses advanced machine learning algorithms to analyze historical weather data and real-time inputs from satellites.",
+          "Experts believe this technology could save lives by providing early warnings for hurricanes, floods, and other extreme weather events."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "slug": "tech-breakthrough-ai",
+      "category": "Tech & Science",
+      "headline": "AI Breakthrough: New Model Can Predict Weather Patterns with 99% Accuracy",
+      "thumbnail": {
+        "type": "image",
+        "url": "/path/to/tech-image.jpg"
+      },
+      "detail": {
+        "image": "/path/to/tech-detail-image.jpg",
+        "heading": "AI Model Achieves 99% Accuracy in Weather Prediction",
+        "leadingParagraph": "A groundbreaking AI model developed by researchers can now predict weather patterns with an unprecedented 99% accuracy, potentially revolutionizing how we prepare for natural disasters.",
+        "paragraphs": [
+          "The model uses advanced machine learning algorithms to analyze historical weather data and real-time inputs from satellites.",
+          "Experts believe this technology could save lives by providing early warnings for hurricanes, floods, and other extreme weather events."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "slug": "tech-breakthrough-ai",
+      "category": "Tech & Science",
+      "headline": "AI Breakthrough: New Model Can Predict Weather Patterns with 99% Accuracy",
+      "thumbnail": {
+        "type": "image",
+        "url": "/path/to/tech-image.jpg"
+      },
+      "detail": {
+        "image": "/path/to/tech-detail-image.jpg",
+        "heading": "AI Model Achieves 99% Accuracy in Weather Prediction",
+        "leadingParagraph": "A groundbreaking AI model developed by researchers can now predict weather patterns with an unprecedented 99% accuracy, potentially revolutionizing how we prepare for natural disasters.",
+        "paragraphs": [
+          "The model uses advanced machine learning algorithms to analyze historical weather data and real-time inputs from satellites.",
+          "Experts believe this technology could save lives by providing early warnings for hurricanes, floods, and other extreme weather events."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "slug": "tech-breakthrough-ai",
+      "category": "Tech & Science",
+      "headline": "AI Breakthrough: New Model Can Predict Weather Patterns with 99% Accuracy",
+      "thumbnail": {
+        "type": "image",
+        "url": "/path/to/tech-image.jpg"
+      },
+      "detail": {
+        "image": "/path/to/tech-detail-image.jpg",
+        "heading": "AI Model Achieves 99% Accuracy in Weather Prediction",
+        "leadingParagraph": "A groundbreaking AI model developed by researchers can now predict weather patterns with an unprecedented 99% accuracy, potentially revolutionizing how we prepare for natural disasters.",
+        "paragraphs": [
+          "The model uses advanced machine learning algorithms to analyze historical weather data and real-time inputs from satellites.",
+          "Experts believe this technology could save lives by providing early warnings for hurricanes, floods, and other extreme weather events."
+        ]
+      }
+    }
+  ]
