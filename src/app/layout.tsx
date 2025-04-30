@@ -1,6 +1,6 @@
 import "./globals.css";
 import { ThemeProvider } from 'next-themes';
-import Header from "@/compoenets/Header";
+import Header from "@/compoenets/header";
 import RightSidebar from "@/compoenets/RightSidebar";
 import LeftSidebar from "@/compoenets/leftSidebar";
 
