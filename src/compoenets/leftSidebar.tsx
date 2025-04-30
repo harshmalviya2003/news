@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { Flame, MapPin, Landmark, Trophy, DollarSign, Video, Globe, Film, Heart, Atom, Medal, Lightbulb, GraduationCap } from 'lucide-react';
 
-const Sidebar = () => {
+const LeftSidebar = () => {
   const navItems = [
     { name: 'Top News', href: '/?q=', icon: <Flame className="h-6 w-6 text-orange-500 flex-shrink-0" /> },
     { name: 'Local', href: '/?q=Local', icon: <MapPin className="h-6 w-6 text-blue-500 flex-shrink-0" /> },
@@ -19,16 +19,18 @@ const Sidebar = () => {
   ];
 
   return (
-    <aside className="bg-gray-900 text-white shadow-xl z-40">
-      <nav className="fixed top-16 left-0 h-[calc(100vh-64px)] w-56 overflow-y-auto scrollbar-hide p-6 pl-8 hidden md:block">
+    <aside className="bg-white dark:bg-[#18191A] text-gray-900 dark:text-white shadow-xl z-40">
+      <nav className="fixed top-16 left-30 h-[calc(100vh-64px)] w-56 overflow-y-auto scrollbar-hide p-6 pl-8 hidden md:block">
         {navItems.map((item) => (
           <Link
             key={item.name}
             href={item.href}
-            className="flex items-center space-x-4 py-3 px-4 mb-2 hover:bg-gray-800 rounded-xl transition-colors duration-200 group"
+            className="flex items-center space-x-4 py-3 px-4 mb-2 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-xl transition-colors duration-200 group"
           >
             {item.icon}
-            <span className="text-base font-semibold group-hover:text-orange-300 transition-colors">{item.name}</span>
+            <span className="text-base font-semibold group-hover:text-orange-500 dark:group-hover:text-orange-300 transition-colors">
+              {item.name}
+            </span>
             {item.new && (
               <span className="ml-auto bg-red-500 text-white text-xs font-bold px-2 py-1 rounded-full">NEW</span>
             )}
@@ -39,4 +41,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default LeftSidebar;

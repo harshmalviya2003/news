@@ -1,0 +1,90 @@
+[
+    {
+      "id": 1,
+      "slug": "tech-trends-2025",
+      "title": "Top Tech Trends to Watch in 2025",
+      "category": "Technology",
+      "thumbnail": {
+        "url": "/download.jpeg",
+        "type": "image"
+      },
+      "shortDescription": "Explore the cutting-edge technologies shaping the future.",
+      "content": [
+        {
+          "heading": "AI Advancements",
+          "description": "Artificial intelligence continues to evolve with breakthroughs in generative models and automation."
+        },
+        {
+          "heading": "Quantum Computing",
+          "description": "Quantum computers are becoming more accessible, promising to revolutionize industries."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "sustainable-living",
+      "title": "How to Live Sustainably in 2025",
+      "category": "Lifestyle",
+      "thumbnail": {
+        "url": "",
+        "type": "image"
+      },
+      "shortDescription": "Tips and tricks for a greener lifestyle.",
+      "content": [
+        {
+          "heading": "Reduce Carbon Footprint",
+          "description": "Simple ways to lower your environmental impact through daily habits."
+        },
+        {
+          "heading": "Eco-Friendly Products",
+          "description": "Discover sustainable alternatives for everyday items."
+        },
+        {
+          "heading": "Community Initiatives",
+          "description": "Join local efforts to promote sustainability."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "space-exploration",
+      "title": "The Future of Space Exploration",
+      "category": "Science",
+      "thumbnail": {
+        "url": "",
+        "type": "image"
+      },
+      "shortDescription": "What's next for humanity's journey into the cosmos?",
+      "content": [
+        {
+          "heading": "Mars Missions",
+          "description": "Upcoming missions to Mars and their potential discoveries."
+        },
+        {
+          "heading": "Space Tourism",
+          "description": "How space travel is becoming accessible to civilians."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "health-tech",
+      "title": "Revolutionizing Healthcare with Technology",
+      "category": "Health",
+      "thumbnail": {
+        "url": "",
+        "type": "image"
+      },
+      "shortDescription": "Innovations transforming the healthcare industry.",
+      "content": [
+        {
+          "heading": "Wearable Devices",
+          "description": "How wearables are monitoring health in real-time."
+        },
+        {
+          "heading": "Telemedicine",
+          "description": "The rise of virtual doctor visits and their benefits."
+        }
+      ]
+    }
+  ]
