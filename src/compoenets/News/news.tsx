@@ -20,6 +20,7 @@ export default async function News({
     }
 
   } catch (error) {
+    console.error('Failed to fetch news:', error);
     // This will trigger the global error page (app/error.tsx)
     throw new Error("Failed to fetch news from backend.");
   }
