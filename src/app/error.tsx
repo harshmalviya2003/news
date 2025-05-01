@@ -34,7 +34,7 @@ export default function Error({ error, reset }: { error: Error; reset: () => voi
   const currentError = isServerDown ? errorMessages.serverDown : errorMessages.generic;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-gray-800 flex flex-col items-center justify-center p-6 text-white">
+    <div className="min-h-screen bg-[#18191A] flex flex-col items-center justify-center p-6 text-white">
       <motion.div
         initial={{ scale: 0.8, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
@@ -95,7 +95,7 @@ export default function Error({ error, reset }: { error: Error; reset: () => voi
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               onClick={handleReset}
-              className="w-full px-6 py-3 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg font-medium shadow-lg hover:shadow-indigo-500/20 transition-all duration-300 flex items-center justify-center gap-2"
+              className="w-full px-6 py-3 bg-[#EE6403] rounded-lg font-medium shadow-lg hover:shadow-indigo-500/20 transition-all duration-300 flex items-center justify-center gap-2"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
