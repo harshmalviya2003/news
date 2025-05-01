@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
-import { Home, PlayCircle, Search, Menu, X, FileText } from 'lucide-react';
+import { Home,  Search, Menu, X, FileText } from 'lucide-react';
 import ThemeHandler from './ThemeHandler';
 
 const Header = () => {
