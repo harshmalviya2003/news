@@ -14,8 +14,13 @@ type Blog = {
   shortDescription: string;
 };
 
-export default async function NewsDetail({ params }: { params: { slug: string } }) {
-  const { slug } = params;
+// Define the PageProps interface with params as a Promise
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export default async function NewsDetail({ params }: PageProps) {
+  const { slug } = await params; // Await the params to get the slug
   const news: NewsArticle = await fetchNewsById(slug);
   const blogs: Blog[] = blogsData.slice(0, 4); // Select first 4 blogs
 
