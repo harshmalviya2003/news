@@ -13,7 +13,13 @@ type Blog = {
   content: { heading: string; description: string }[];
 };
 
-export default function BlogDetail({ params }: { params: { slug: string } }) {
+interface PageProps {
+  params: {
+    slug: string;
+  };
+}
+
+export default function BlogDetail({ params }: PageProps) {
   const blog: Blog | undefined = blogsData.find((b: Blog) => b.slug === params.slug);
 
   if (!blog) {
@@ -28,9 +34,8 @@ export default function BlogDetail({ params }: { params: { slug: string } }) {
           <Image
             src={blog.thumbnail.url}
             alt={blog.title}
-            layout="fill"
-            objectFit="cover"
-            className="rounded-xl"
+            fill
+            className="rounded-xl object-cover"
           />
         </div>
         {/* Title and Category */}
