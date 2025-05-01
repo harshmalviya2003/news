@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Facebook, Twitter, Link as LinkIcon } from 'lucide-react';
 import { NewsArticle } from '@/lib/types';
+import Image from 'next/image';
 
 const SingleNews = ({ news, isFirst = false }: { news: NewsArticle; isFirst?: boolean }) => {
   return (
@@ -37,7 +38,7 @@ const SingleNews = ({ news, isFirst = false }: { news: NewsArticle; isFirst?: bo
         >
           {news.thumbnail.type === 'video' ? (
             <div className="relative w-full h-full">
-              <img src={news.thumbnail.url} alt="thumbnail" className="w-full h-full object-cover" />
+              <Image src={news.thumbnail.url} alt="thumbnail" className="w-full h-full object-cover" />
               <div className="absolute inset-0 flex items-center justify-center">
                 <div className="bg-black bg-opacity-60 p-2 sm:p-3 hover:bg-opacity-80 transition-all">
                   <svg className="w-6 h-6 sm:w-8 sm:h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
@@ -50,7 +51,7 @@ const SingleNews = ({ news, isFirst = false }: { news: NewsArticle; isFirst?: bo
               </span>
             </div>
           ) : (
-            <img src={news.thumbnail.url} alt="thumbnail" className="w-full h-full object-cover rounded-b-xl sm:rounded-b-none sm:rounded-r-xl" />
+            <Image src={news.thumbnail.url} alt="thumbnail" className="w-full h-full object-cover rounded-b-xl sm:rounded-b-none sm:rounded-r-xl" />
           )}
         </div>
 
