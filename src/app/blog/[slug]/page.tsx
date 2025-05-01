@@ -13,14 +13,16 @@ type Blog = {
   content: { heading: string; description: string }[];
 };
 
+// Update PageProps to reflect that params is a Promise
 interface PageProps {
-  params: {
-    slug: string;
-  };
+  params: Promise<{ slug: string }>;
 }
 
-export default function BlogDetail({ params }: PageProps) {
-  const blog: Blog | undefined = blogsData.find((b: Blog) => b.slug === params.slug);
+// Make the component async to await params
+export default async function BlogDetail({ params }: PageProps) {
+  // Await the params to get the slug
+  const { slug } = await params;
+  const blog: Blog | undefined = blogsData.find((b: Blog) => b.slug === slug);
 
   if (!blog) {
     notFound();
